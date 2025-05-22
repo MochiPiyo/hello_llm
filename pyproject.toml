@@ -1,0 +1,11 @@
+[project]
+name = "hello-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "huggingface-hub>=0.31.4",
+    "llama-cpp-python>=0.3.9",
+    "sentencepiece>=0.2.0",
+]
